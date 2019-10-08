@@ -1,0 +1,31 @@
+{
+    "coin": {
+        "action": {
+            "money": 1,
+            "audio": "coin"
+        },
+        "animations": {
+            "idle_left": [
+                "ig_coin.png"
+            ],
+            "idle_right": [
+                "ig_coin.png"
+            ]
+        }
+    },
+    "exit": {
+        "action": {
+            "gameover": true
+        },
+        "animations": {
+            "idle_left": [
+                "exit/idle1.png",
+                "exit/idle2.png"
+            ],
+            "idle_right": [
+                "exit/idle1.png",
+                "exit/idle2.png"
+            ]
+        }
+    }
+}

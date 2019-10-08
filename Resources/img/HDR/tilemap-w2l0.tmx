@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="64" tileheight="64" nextobjectid="141">
+    <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="47" columns="47">
+        <image source="world1.png" width="3760" height="80"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztl80SgjAQg/MWHvyLjo7v/4bCgctaoduuFUq+mZwoS0oK3QLr5zHoWaloOOiVKc/YaIkyCOXbM4Ty7Zk78vcGQvn2DKF8e4ZQvj3j+ZdHSwghhBAixWXQKUjXYE/noHp7hog7L9xM7YOR5dv1yZOtJz5Z+j6J3+VbyuRJ+S5DtDvvR+c7am59Ru0HW4bYdr5z/sfn1fQPqfXhqdeaY8ID0Xe+tfOz78tzb2vo9Kd862T7w9w+snTcP+e6x3xbwwqvytevNyQTcTY=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="128" y="1024" width="64" height="128"/>
+        <object id="53" name="exit" x="7552" y="768" width="128" height="192"/>
+        <object id="67" name="walker" x="896" y="1024" width="64" height="128"/>
+        <object id="68" name="block2" x="3328" y="576" width="64" height="128"/>
+        <object id="92" name="staticshooter" x="2496" y="704" width="64" height="128"/>
+        <object id="104" name="block2" x="3456" y="448" width="64" height="128"/>
+        <object id="105" name="bones" x="3392" y="576" width="64" height="128"/>
+        <object id="106" name="staticshooter" x="4800" y="640" width="64" height="128"/>
+        <object id="107" name="staticshooter" x="7168" y="832" width="64" height="128"/>
+        <object id="109" name="bones" x="6464" y="832" width="64" height="128"/>
+        <object id="110" name="block" x="6528" y="768" width="64" height="128"/>
+        <object id="111" name="block" x="4096" y="576" width="64" height="128"/>
+        <object id="112" name="block" x="4672" y="576" width="64" height="128"/>
+        <object id="113" name="block2" x="5184" y="512" width="64" height="128"/>
+        <object id="114" name="knight" x="5632" y="768" width="64" height="128"/>
+        <object id="115" name="jumper" x="7040" y="832" width="64" height="128"/>
+        <object id="116" name="coin" x="1344" y="1024" width="64" height="64"/>
+        <object id="117" name="coin" x="1408" y="1024" width="64" height="64"/>
+        <object id="118" name="coin" x="1472" y="1024" width="64" height="64"/>
+        <object id="119" name="coin" x="1536" y="1024" width="64" height="64"/>
+        <object id="120" name="coin" x="1600" y="1024" width="64" height="64"/>
+        <object id="121" name="coin" x="2240" y="704" width="64" height="64"/>
+        <object id="122" name="coin" x="2304" y="704" width="64" height="64"/>
+        <object id="123" name="coin" x="2368" y="704" width="64" height="64"/>
+        <object id="129" name="coin" x="4416" y="576" width="64" height="64"/>
+        <object id="130" name="coin" x="4480" y="576" width="64" height="64"/>
+        <object id="131" name="coin" x="5440" y="768" width="64" height="64"/>
+        <object id="132" name="coin" x="5504" y="768" width="64" height="64"/>
+        <object id="133" name="coin" x="5568" y="768" width="64" height="64"/>
+        <object id="134" name="coin" x="3136" y="512" width="64" height="64"/>
+        <object id="135" name="coin" x="3200" y="512" width="64" height="64"/>
+        <object id="136" name="coin" x="4864" y="512" width="64" height="64"/>
+        <object id="137" name="coin" x="4928" y="512" width="64" height="64"/>
+        <object id="138" name="coin" x="6208" y="832" width="64" height="64"/>
+        <object id="139" name="coin" x="6272" y="832" width="64" height="64"/>
+        <object id="140" name="coin" x="6336" y="832" width="64" height="64"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1EEKwCAQBMF9g/j/t3pNIOLJiEMVzH2hYasAAAAAAPjSTh/AVvreLaFff4y3hL7M6bvW644foWU2fbPpm03f/w30dgEv</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1VsKgCAQQFGX09P2v7sQgvpJxxpqZrgH/JEi8ZKmBPxr6pyHL2PnPHyhb2wW+0rujOUYqLPYV7om+rZ57os2i3v5dk2D0jMRPN3L9TK00VePx/93a7xP39PcOf+Fu2+XvuW8yKl+btDXJ87n2Ogbm/TOoG9s9AUAAPBpB8u5Cjw=</data>
+    </layer>
+</map>

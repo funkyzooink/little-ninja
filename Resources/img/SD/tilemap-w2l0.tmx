@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="16" tileheight="16" nextobjectid="141">
+    <tileset firstgid="1" name="world1" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="47" columns="47">
+        <image source="world1.png" width="940" height="20"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztl80SgjAQg/MWHvyLjo7v/4bCgctaoduuFUq+mZwoS0oK3QLr5zHoWaloOOiVKc/YaIkyCOXbM4Ty7Zk78vcGQvn2DKF8e4ZQvj3j+ZdHSwghhBAixWXQKUjXYE/noHp7hog7L9xM7YOR5dv1yZOtJz5Z+j6J3+VbyuRJ+S5DtDvvR+c7am59Ru0HW4bYdr5z/sfn1fQPqfXhqdeaY8ID0Xe+tfOz78tzb2vo9Kd862T7w9w+snTcP+e6x3xbwwqvytevNyQTcTY=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="32" y="256" width="16" height="32"/>
+        <object id="53" name="exit" x="1888" y="192" width="32" height="48"/>
+        <object id="67" name="walker" x="224" y="256" width="16" height="32"/>
+        <object id="68" name="block2" x="832" y="144" width="16" height="32"/>
+        <object id="92" name="staticshooter" x="624" y="176" width="16" height="32"/>
+        <object id="104" name="block2" x="864" y="112" width="16" height="32"/>
+        <object id="105" name="bones" x="848" y="144" width="16" height="32"/>
+        <object id="106" name="staticshooter" x="1200" y="160" width="16" height="32"/>
+        <object id="107" name="staticshooter" x="1792" y="208" width="16" height="32"/>
+        <object id="109" name="bones" x="1616" y="208" width="16" height="32"/>
+        <object id="110" name="block" x="1632" y="192" width="16" height="32"/>
+        <object id="111" name="block" x="1024" y="144" width="16" height="32"/>
+        <object id="112" name="block" x="1168" y="144" width="16" height="32"/>
+        <object id="113" name="block2" x="1296" y="128" width="16" height="32"/>
+        <object id="114" name="knight" x="1408" y="192" width="16" height="32"/>
+        <object id="115" name="jumper" x="1760" y="208" width="16" height="32"/>
+        <object id="116" name="coin" x="336" y="256" width="16" height="16"/>
+        <object id="117" name="coin" x="352" y="256" width="16" height="16"/>
+        <object id="118" name="coin" x="368" y="256" width="16" height="16"/>
+        <object id="119" name="coin" x="384" y="256" width="16" height="16"/>
+        <object id="120" name="coin" x="400" y="256" width="16" height="16"/>
+        <object id="121" name="coin" x="560" y="176" width="16" height="16"/>
+        <object id="122" name="coin" x="576" y="176" width="16" height="16"/>
+        <object id="123" name="coin" x="592" y="176" width="16" height="16"/>
+        <object id="129" name="coin" x="1104" y="144" width="16" height="16"/>
+        <object id="130" name="coin" x="1120" y="144" width="16" height="16"/>
+        <object id="131" name="coin" x="1360" y="192" width="16" height="16"/>
+        <object id="132" name="coin" x="1376" y="192" width="16" height="16"/>
+        <object id="133" name="coin" x="1392" y="192" width="16" height="16"/>
+        <object id="134" name="coin" x="784" y="128" width="16" height="16"/>
+        <object id="135" name="coin" x="800" y="128" width="16" height="16"/>
+        <object id="136" name="coin" x="1216" y="128" width="16" height="16"/>
+        <object id="137" name="coin" x="1232" y="128" width="16" height="16"/>
+        <object id="138" name="coin" x="1552" y="208" width="16" height="16"/>
+        <object id="139" name="coin" x="1568" y="208" width="16" height="16"/>
+        <object id="140" name="coin" x="1584" y="208" width="16" height="16"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1EEKwCAQBMF9g/j/t3pNIOLJiEMVzH2hYasAAAAAAPjSTh/AVvreLaFff4y3hL7M6bvW644foWU2fbPpm03f/w30dgEv</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1VsKgCAQQFGX09P2v7sQgvpJxxpqZrgH/JEi8ZKmBPxr6pyHL2PnPHyhb2wW+0rujOUYqLPYV7om+rZ57os2i3v5dk2D0jMRPN3L9TK00VePx/93a7xP39PcOf+Fu2+XvuW8yKl+btDXJ87n2Ogbm/TOoG9s9AUAAPBpB8u5Cjw=</data>
+    </layer>
+</map>

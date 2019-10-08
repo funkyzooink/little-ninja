@@ -1,0 +1,95 @@
+{
+    "player1": {
+        "id": 0,
+        "x_speed": 16,
+        "y_speed": 5,
+        "can_kill_by_jump": false,
+        "additional_button": "attack",
+        "animations": {
+            "attack_left": [
+                "player1/attack-left.png"
+            ],
+            "attack_right": [
+                "player1/attack-right.png"
+            ],
+            "idle_left": [
+                "player1/idle-left-1.png",
+                "player1/idle-left-2.png"
+            ],
+            "idle_right": [
+                "player1/idle-right-1.png",
+                "player1/idle-right-2.png"
+            ],
+            "jump_left_down": [
+                "player1/jump-left-down.png"
+            ],
+            "jump_left_up": [
+                "player1/jump-left-up.png"
+            ],
+            "jump_right_down": [
+                "player1/jump-right-down.png"
+            ],
+            "jump_right_up": [
+                "player1/jump-right-up.png"
+            ],
+            "walk_left": [
+                "player1/walk-left-1.png",
+                "player1/walk-left-2.png",
+                "player1/walk-left-3.png",
+                "player1/walk-left-4.png"
+            ],
+            "walk_right": [
+                "player1/walk-right-1.png",
+                "player1/walk-right-2.png",
+                "player1/walk-right-3.png",
+                "player1/walk-right-4.png"
+            ]
+        }
+    },
+    "player2": {
+        "id": 1,
+        "x_speed": 16,
+        "y_speed": 5,
+        "can_kill_by_jump": false,
+        "additional_button": "shoot",
+        "bullet_type": [
+            "bullet",
+            "bullet",
+            "bullet"
+        ],
+        "animations": {
+            "idle_left": [
+                "player2/idle-left-1.png",
+                "player2/idle-left-2.png"
+            ],
+            "idle_right": [
+                "player2/idle-right-1.png",
+                "player2/idle-right-2.png"
+            ],
+            "jump_left_down": [
+                "player2/jump-left-down.png"
+            ],
+            "jump_left_up": [
+                "player2/jump-left-up.png"
+            ],
+            "jump_right_down": [
+                "player2/jump-right-down.png"
+            ],
+            "jump_right_up": [
+                "player2/jump-right-up.png"
+            ],
+            "walk_left": [
+                "player2/walk-left-1.png",
+                "player2/walk-left-2.png",
+                "player2/walk-left-3.png",
+                "player2/walk-left-4.png"
+            ],
+            "walk_right": [
+                "player2/walk-right-1.png",
+                "player2/walk-right-2.png",
+                "player2/walk-right-3.png",
+                "player2/walk-right-4.png"
+            ]
+        }
+    }
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="32" tileheight="32" nextobjectid="164">
+ <tileset firstgid="1" name="world1" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="47" columns="47">
+  <image source="world1.png" width="1880" height="40"/>
+ </tileset>
+ <layer name="tileLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmEsOwyAMBd8p2kU/cVtVuf8NG3YIUQIGYkM80tslbvCIhHoFsFrYeW35Ko50f0aP86sZ6f6MHvM7d8zv3Mnxew1yJNL9adlnifPLJ9JTCY//cL1xzyh9zuvR5xF4brlnZmHUz33HGGm4e5bQ9lsQYn5lIZjfmSGY35EoPScTzO/MEMxvDZcg2iCY3z20O0xBOJdfCVe1vxn7D/vIvJdwLr8ptO5TAt9F7N7Wft3sJ3eGUhN//qLVVUjOfOkN3X6PyijvCR/C/rpi1/Twe0P5ntLq1983nLlrWINbi9B3rdz6GlPi1183d9/7Nbi1YjVG8vsDd5eWKw==
+  </data>
+ </layer>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="320" y="448" width="32" height="64"/>
+  <object id="53" name="exit" x="3776" y="448" width="64" height="96"/>
+  <object id="67" name="bones" x="704" y="448" width="32" height="64"/>
+  <object id="68" name="walker" x="1632" y="352" width="32" height="64"/>
+  <object id="90" name="knight" x="2688" y="384" width="32" height="64"/>
+  <object id="91" name="walker" x="3328" y="128" width="32" height="64"/>
+  <object id="93" name="walker" x="1024" y="448" width="32" height="64"/>
+  <object id="94" name="block2" x="3488" y="64" width="32" height="64"/>
+  <object id="95" name="coin" x="2912" y="64" width="32" height="32"/>
+  <object id="96" name="coin" x="2880" y="64" width="32" height="32"/>
+  <object id="102" name="coin" x="2176" y="384" width="32" height="32"/>
+  <object id="103" name="coin" x="2368" y="448" width="32" height="32"/>
+  <object id="104" name="coin" x="2304" y="448" width="32" height="32"/>
+  <object id="106" name="coin" x="2080" y="384" width="32" height="32"/>
+  <object id="107" name="coin" x="1792" y="320" width="32" height="32"/>
+  <object id="108" name="coin" x="1952" y="320" width="32" height="32"/>
+  <object id="109" name="coin" x="3168" y="128" width="32" height="32"/>
+  <object id="110" name="coin" x="3200" y="128" width="32" height="32"/>
+  <object id="111" name="coin" x="3424" y="128" width="32" height="32"/>
+  <object id="112" name="coin" x="3392" y="128" width="32" height="32"/>
+  <object id="113" name="bones" x="3584" y="480" width="32" height="64"/>
+  <object id="114" name="block" type="X" x="2080" y="320" width="32" height="64"/>
+  <object id="115" name="block2" x="1312" y="352" width="32" height="64"/>
+  <object id="116" name="staticshooter" x="1216" y="384" width="32" height="64"/>
+  <object id="120" name="staticshooter" x="2528" y="448" width="32" height="64"/>
+  <object id="121" name="staticshooter" x="2624" y="384" width="32" height="64"/>
+  <object id="122" name="block2" x="1728" y="320" width="32" height="64"/>
+  <object id="123" name="staticshooter" x="1856" y="320" width="32" height="64"/>
+  <object id="155" name="coin" x="416" y="448" width="32" height="32"/>
+  <object id="156" name="coin" x="448" y="448" width="32" height="32"/>
+  <object id="157" name="coin" x="480" y="448" width="32" height="32"/>
+  <object id="158" name="coin" x="64" y="448" width="32" height="32"/>
+  <object id="159" name="coin" x="96" y="448" width="32" height="32"/>
+  <object id="160" name="block2" x="160" y="416" width="32" height="64"/>
+  <object id="161" name="coin" x="3552" y="256" width="32" height="32"/>
+  <object id="162" name="coin" x="3552" y="320" width="32" height="32"/>
+  <object id="163" name="coin" x="3552" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="interactionObjects">
+   <object id="97" name="destroy" x="2848" y="128" width="32" height="32"/>
+  <object id="117" name="destroy" x="2880" y="128" width="32" height="32"/>
+  <object id="118" name="destroy" x="2720" y="160" width="32" height="32"/>
+  <object id="119" name="destroy" x="2752" y="160" width="32" height="32"/>
+  <object id="124" name="destroy" x="2912" y="128" width="32" height="32"/>
+  <object id="125" name="destroy" x="2944" y="128" width="32" height="32"/>
+  <object id="126" name="destroy" x="2624" y="224" width="32" height="32"/>
+  <object id="127" name="destroy" x="2656" y="224" width="32" height="32"/>
+  <object id="128" name="destroy" x="2688" y="320" width="32" height="32"/>
+  <object id="129" name="destroy" x="2720" y="320" width="32" height="32"/>
+  <object id="130" name="destroy" x="2752" y="320" width="32" height="32"/>
+  <object id="131" name="destroy" x="2080" y="448" width="32" height="32"/>
+  <object id="132" name="destroy" x="2112" y="448" width="32" height="32"/>
+  <object id="133" name="destroy" x="2144" y="448" width="32" height="32"/>
+  <object id="134" name="destroy" x="2176" y="448" width="32" height="32"/>
+  <object id="135" name="destroy" x="1792" y="384" width="32" height="32"/>
+  <object id="136" name="destroy" x="1824" y="384" width="32" height="32"/>
+  <object id="137" name="destroy" x="1856" y="384" width="32" height="32"/>
+  <object id="138" name="destroy" x="1888" y="384" width="32" height="32"/>
+  <object id="139" name="destroy" x="1568" y="416" width="32" height="32"/>
+  <object id="140" name="destroy" x="1600" y="416" width="32" height="32"/>
+  <object id="141" name="destroy" x="1632" y="416" width="32" height="32"/>
+  <object id="142" name="destroy" x="1664" y="416" width="32" height="32"/>
+  <object id="143" name="destroy" x="1376" y="480" width="32" height="32"/>
+  <object id="144" name="destroy" x="1408" y="480" width="32" height="32"/>
+  <object id="145" name="destroy" x="1440" y="480" width="32" height="32"/>
+  <object id="146" name="destroy" x="1472" y="480" width="32" height="32"/>
+  <object id="147" name="destroy" x="1152" y="448" width="32" height="32"/>
+  <object id="148" name="destroy" x="1184" y="448" width="32" height="32"/>
+  <object id="149" name="destroy" x="1216" y="448" width="32" height="32"/>
+  <object id="150" name="destroy" x="1248" y="448" width="32" height="32"/>
+  <object id="151" name="destroy" x="960" y="512" width="32" height="32"/>
+  <object id="152" name="destroy" x="992" y="512" width="32" height="32"/>
+  <object id="153" name="destroy" x="1024" y="512" width="32" height="32"/>
+  <object id="154" name="destroy" x="1056" y="512" width="32" height="32"/>
+ </objectgroup>
+ <layer name="hazardLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzLEJACAMAMGsEHD/We3TKgnoHXz7EQAAwI9yKAAAAADgLat043HyAui2ATIGAsc=
+  </data>
+ </layer>
+ <layer name="elementLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENgDAMAMGMQ0Fg/+2gdpcIgnn/SZYltx+lNUlv2gbv+hf7stmXzb5s9tXXfGts9mWzL5t92ezLVqHvGXYlWfvuYWb1e46wK8nal6aHWcW+azz1Hykn+0oSwwXjigb+
+  </data>
+ </layer>
+</map>

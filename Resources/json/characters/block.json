@@ -1,0 +1,67 @@
+{
+    "block": {
+        "x_speed": 2,
+        "animations": {
+            "idle_left": [
+                "ig_missile2.png"
+            ],
+            "idle_right": [
+                "ig_missile2.png"
+            ],
+            "walk_left": [
+                "ig_missile2.png"
+            ],
+            "walk_right": [
+                "ig_missile2.png"
+            ]
+        }
+    },
+    "block2": {
+        "y_speed": 2,
+        "animations": {
+            "idle_left": [
+                "ig_missile2.png"
+            ],
+            "idle_right": [
+                "ig_missile2.png"
+            ],
+            "walk_left": [
+                "ig_missile2.png"
+            ],
+            "walk_right": [
+                "ig_missile2.png"
+            ]
+        }
+    },
+    "spike": {
+        "x_speed": 0,
+        "y_speed": 5,
+        "can_attack": true,
+        "animations": {
+            "idle_left": [
+                "ig_missile.png"
+            ],
+            "idle_right": [
+                "ig_missile.png"
+            ],
+            "jump_left_down": [
+                "ig_missile.png"
+            ],
+            "jump_left_up": [
+                "ig_missile.png"
+            ],
+            "jump_right_down": [
+                "ig_missile.png"
+            ],
+            "jump_right_up": [
+                "ig_missile.png"
+            ],
+            "walk_left": [
+                "ig_missile.png"
+            ],
+            "walk_right": [
+                "ig_missile.png"
+            ]
+        }
+    }
+}

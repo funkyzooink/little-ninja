@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="16" tileheight="16" nextobjectid="68">
+    <tileset firstgid="1" name="world1" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="47" columns="47">
+        <image source="world1.png" width="940" height="20"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztlsEKgCAQBc3Km3Sr///TvEQg4sVddZ9vYG4l5mBscASZMHoDRBX2xYZ9sWFfbNgXG/adgy15ZnqBdRH63pkWickrU6INQl/LfPd2d+wrwVNxxDOle8u+OCD1Lc0QPZSYU7RA6lv7Fk1n/kdp9z1cv3tUmiHYV3ffI86bfX/Yd+2+LTOLr6yNpOW+LTNLaHjXkuyLLftiu3LfF3znJTI=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="112" y="176" width="16" height="32"/>
+        <object id="53" name="exit" x="1888" y="192" width="32" height="48"/>
+        <object id="67" name="walker" x="1152" y="112" width="16" height="32"/>
+    </objectgroup>
+    <objectgroup name="interactionObjects">
+        <object id="60" name="destroy" x="832" y="112" width="16" height="16"/>
+        <object id="64" name="destroy" x="784" y="112" width="16" height="16"/>
+        <object id="65" name="destroy" x="800" y="112" width="16" height="16"/>
+        <object id="66" name="destroy" x="816" y="112" width="16" height="16"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzkERAAAIA6A1sH9bS+z0AwlIAAAAAAAAAACAK/MdoGoBQLAAEA==</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzkERAAAIA6A1sH9bS+z0AwlIAAAAAAAAAACAS/MdoGYBQHQAEA==</data>
+    </layer>
+</map>

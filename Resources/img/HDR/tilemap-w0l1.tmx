@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="64" tileheight="64" nextobjectid="115">
+    <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="47" columns="47">
+        <image source="world1.png" width="3760" height="80"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztl8EKhDAMRLu66008+v9/qrfVIGha23TgPZib1TBjEpoSAAAAAAAAQDs+u36ZGgre1TvrQcrMu5ZMfdM5s9FxVh3Pv+zpA/usl9WoJN8SqePxzdMHU2Cd5Punlm/k2wY75+weJl/tfO+o5Zud5Vf7+OnuHyrWSb71+vnpt6eGdZLvO/3suadE5pt75+5BkXPPo8h8laXim0qdvUnFN5U6e5OKb5F1btTvMzI=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="128" y="896" width="64" height="128"/>
+        <object id="53" name="exit" x="7552" y="256" width="128" height="192"/>
+        <object id="67" name="walker" x="1408" y="896" width="64" height="128"/>
+        <object id="68" name="jumper" x="3328" y="448" width="64" height="128"/>
+        <object id="89" name="walker" x="4096" y="448" width="64" height="128"/>
+        <object id="90" name="walker" x="5632" y="704" width="64" height="128"/>
+        <object id="91" name="walker" x="6656" y="320" width="64" height="128"/>
+        <object id="93" name="walker" x="2048" y="896" width="64" height="128"/>
+        <object id="94" name="jumper" x="5952" y="320" width="64" height="128"/>
+        <object id="95" name="coin" x="5312" y="576" width="64" height="64"/>
+        <object id="96" name="coin" x="5376" y="512" width="64" height="64"/>
+        <object id="97" name="coin" x="5440" y="448" width="64" height="64"/>
+        <object id="98" name="coin" x="4288" y="384" width="64" height="64"/>
+        <object id="99" name="coin" x="4352" y="384" width="64" height="64"/>
+        <object id="100" name="coin" x="4416" y="384" width="64" height="64"/>
+        <object id="101" name="coin" x="4480" y="384" width="64" height="64"/>
+        <object id="102" name="coin" x="3392" y="384" width="64" height="64"/>
+        <object id="103" name="coin" x="3456" y="384" width="64" height="64"/>
+        <object id="104" name="coin" x="3520" y="384" width="64" height="64"/>
+        <object id="105" name="coin" x="3584" y="384" width="64" height="64"/>
+        <object id="106" name="coin" x="2880" y="832" width="64" height="64"/>
+        <object id="107" name="coin" x="2944" y="832" width="64" height="64"/>
+        <object id="108" name="coin" x="3008" y="832" width="64" height="64"/>
+        <object id="109" name="coin" x="6144" y="192" width="64" height="64"/>
+        <object id="110" name="coin" x="6272" y="192" width="64" height="64"/>
+        <object id="111" name="coin" x="6400" y="192" width="64" height="64"/>
+        <object id="112" name="coin" x="6528" y="192" width="64" height="64"/>
+        <object id="113" name="coin" x="2560" y="384" width="64" height="64"/>
+        <object id="114" name="coin" x="2624" y="384" width="64" height="64"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1lEJAAAIQ8GFsH9Wf42geAcvwmAJAAAA3FEj+MoOAAD2qPhnAADfNTkjAMk=</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAB4DCWAAAE=</data>
+    </layer>
+</map>

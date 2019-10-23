@@ -1,10 +1,10 @@
-Title
+Title (max 50 characters):
 Little Ninja - A Gameboy Tale
 
-Short description:
+Short description (max 80 characters):
 Follow a Ninja on his adventure in an oldschool GameBoy world 🗡️
 
-Full description:
+Full description (max 4000 characters):
 From the game designers of "Little Robot Adventure" selected by Intellectuapp for the "app of the day", Little Ninja is the most amazing Game Boy adventure on the Internet. A classical Platform Game, Little Ninja blows your mind. 
 
 The game offers :

@@ -1,5 +1,5 @@
 {
-    "tutorial1": "Paina vasenta ja oikeaa nuoli näppäintä liikkuaksesi\nVoit käyttää näppäinten yläpuolella olevaa koko näytön aluetta",
+    "tutorial1": "Paina vasenta ja oikeaa nuoli näppäintä liikkuaksesi\nVoit käyttää näppäinten yläpuolella olevaa näytön aluetta",
     "tutorial2": "Paina ylös nuoli näppäintä hyppääksesi",
     "tutorial3": "Hyppää ylös tuhoaksesi palikoita",
     "tutorial4": "Paina ylös nuoli näppäintä kun olet hypyssä\ntupla hyppääksesi",
@@ -7,7 +7,7 @@
     "resume_button": "Jatka",
     "revive_button": "Herää henkiin",
     "restart_button": "Uudestaan",
-    "main_menu_button": "Pää valikko",
+    "main_menu_button": "Päävalikko",
     "next_button": "Seuraava",
     "sharing_rate_on_google": "Arvostele meidät saadaksesi 500 Kolikkoa",
     "sharing_other_on_google": "Katso muut pelimme saadaksesi 500 Kolikkoa",

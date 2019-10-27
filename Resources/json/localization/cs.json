@@ -1,0 +1,27 @@
+{
+    "tutorial1": "Stisknutím kláves se šipkami doleva a doprava se pohybujete \ nMůžete použít celou oblast obrazovky nad klávesami",
+    "tutorial2": "Přeskočit stisknutím šipky nahoru",
+    "tutorial3": "Přejít na zničit bloky",
+    "tutorial4": "Dotkněte se klávesy se šipkou nahoru a skočte \ n na dvojitý skok"
+    "tutorial5": "Zasažte své nepřátele, abyste je porazili \ n",
+    "resume_button": "Pokračovat",
+    "revive_button": "Revive",
+    "restart_button": "Restart",
+    "main_menu_button": "Main Menu",
+    "next_button": "Next",
+    "sharing_rate_on_google": "Ohodnoťte nás a získejte 500 mincí",
+    "sharing_other_on_google": "Podívejte se na naše další hry a získejte 500 mincí",
+    "sharing_facebook": "Stejně jako my na Facebooku získáme 500 mincí",
+    "sharing_twitter": "Sledujte nás na Twitteru a získejte 500 mincí",
+    "světy": "světy",
+    "level_failed": "Level Failed",
+    "vítězství": "vítězství",
+    "last_level": "Tohle je ... prozatím! \ nDěkuji za hraní! \ nVíce levelů brzy!",
+    "revive_title": "Revive?",
+    "start_title": "Little Ninja",
+    "pause_title": "Game Paused",
+    "settings_title": "Settings",
+    "revive_text_1": "Pokračujte ve hře za $ hodnotu \ n",
+    "revive_text_2": "Máte hodnotu $",
+    "kredity_text": "Úvěry \ n \ nMalé kluby Ninja \ n (c) 2019 funkyzooink \ n \ nKód, grafika, zvuk: Gabriel Heilig \ n Zdroje: OpenGameArt, freesound \ nDěkujeme vám za: Kenny \ n \ n \ nDěkujeme vám za hraje! “
+}

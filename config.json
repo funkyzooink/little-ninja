@@ -1,8 +1,6 @@
 {
     "app_name": "Little Ninja",
-    "ios_bundle_id": "de.funkyzoo.NinjaBoy",
-    "play_bundle_id": "de.funkyzoo.NinjaBoy",
-    "underground_bundle_id": "de.funkyzoo.NinjaBoyUnderground",
-    "version_code": 26,
+    "ios_bundle_id": "de.funkyzoo.LittleNinja",
+    "play_bundle_id": "de.funkyzoo.LittleNinja",
     "version_name": "2.0"
 }

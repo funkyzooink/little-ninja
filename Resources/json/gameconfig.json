@@ -1,19 +1,5 @@
 {
     "sharing": {
-        "android": {
-            "rate": {
-                "title": "sharing_rate_on_google",
-                "icon": "ctrl_rate.png",
-                "url": "https://play.google.com/store/apps/details?id=de.funkyzoo.NinjaBoy",
-                "reward": 500
-            },
-            "other_games": {
-                "title": "sharing_other_on_google",
-                "icon": "ctrl_more.png",
-                "url": "https://play.google.com/store/apps/dev?id=8573000756928281834",
-                "reward": 500
-            }
-        },
         "default": {
             "facebook": {
                 "title": "sharing_facebook",

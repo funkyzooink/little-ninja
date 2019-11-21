@@ -1,0 +1,7 @@
+os: osx
+language: ruby # dummy to prevent objective-c warning
+script:
+  - ./create_tmx_files.sh
+env:
+  global:
+  - secure: qfdroZc912zeL9pvvbir608ytPkwC+9xXbzzvMY/d6crTSNi29zFPnUpQ50kdLLW1QClAHF/Rn+h9ni+HLXvLR42E8fTun+/H96JSRhuSRWIujPj1qz3eXE9HAGm4fRctMtp38JluUSFxmZPQlc2r0MPiv6BxBXR/WSZUObFeXT+gB0chcG919ChWb/fKscGQv0VY+dJX2QFjRMRTWJRnGd5SHXqgPHjrN+mWtHsxGn63Qw2+0VBtmZ9ylOWr66Y+YVxlKuiyhR1GgHJn44hzNFMZoua/z7mYGgUz8oLh1UofjOb+eil2/UCIFR4HYve5aklM8MPTwUT9CDpxyYp+TlJCcvhYDFzxpwjjV6oXKJZtgmV3BnhYX2x8y5vpk8UowE3s/E+bsZruHPg9sGoYNdSdwtJxzKkktMP93ZztZ8NFapHHoaVcIRDacbdsAUrUCde/s2twASQejReBG0o1iPSp4X7Z6EMeEqfmb2kGprtb674qstSip5z8p+/VlMzbula+lIAc+FAbAZOdjrvYE7/GrmOoWTz9P4L5cS4nzX01huRlrfnjgM9o0zZT6Umyeck3vkf7aDOvy5o8vjPupg9eIF7+uxwGPQe/1/wJsq8EuEM1KZy0hcfFnZWTZUTmHqDUWYCI8L09UzFspa+o4uQ4nXI/Fs+ZhAM9MMuzYQ=

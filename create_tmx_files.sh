@@ -7,7 +7,7 @@ download_wbtmx() {
 }
 
 run_wbtmx() {
-  WBTMXTool=../WBTMXTool/WBTMXTool
+  WBTMXTool=../../WBTMXTool/WBTMXTool
 
   if [ "${ACTION}" = "clean" ]
   then

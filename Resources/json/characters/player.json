@@ -3,8 +3,8 @@
         "id": 0,
         "x_speed": 16,
         "y_speed": 5,
-        "can_kill_by_jump": false,
-        "additional_button": "attack",
+        "custom_action_1": "attack",
+        "custom_action_2": "jump",
         "animations": {
             "attack_left": [
                 "player1/attack-left.png"
@@ -50,8 +50,8 @@
         "id": 1,
         "x_speed": 16,
         "y_speed": 5,
-        "can_kill_by_jump": false,
-        "additional_button": "shoot",
+        "custom_action_1": "shoot",
+        "custom_action_2": "jump",
         "bullet_type": [
             "bullet",
             "bullet",

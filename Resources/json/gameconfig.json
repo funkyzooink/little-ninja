@@ -104,10 +104,10 @@
             "sprite": "ctrl_arrowRight.png"
         },
         "touch3": {
-            "type": "additional"
+            "type": "custom1"
         },
         "touch4": {
-            "type": "jump",
+            "type": "custom2",
             "sprite": "ctrl_arrowUp.png"
         }
     },

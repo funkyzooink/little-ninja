@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="64" tileheight="64" nextobjectid="130">
+    <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="47" columns="47">
+        <image source="world1.png" width="3760" height="80"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztmEsOwyAMRH2KdtMPLa2y6f3PFyIFqUI2guKYgmakt8gHx3iCo7AQ0QIAAAAAAECCD7wC7w48Mzm1xKgZL2FZG3+gvw/i9Uk4Qq4yp9IYNeMlacUpkSP4K2lbv9x6aJWlv9wcNHtDL0nz6plTlKW/kL3g79yCv3ML/trotCMdHyX4+x+6BS4JV4W48LddnDe1/jga//93VjmS/3853zm4GFr++oo8WtDoN9aS1uY32z2t+zPc/qSWv1aM2Ccc2dZIqlfJe8atJ8t8f+0T96Tmca5pPzjvcOdy13L3O+MaSf72zMNinty3yqIfxGeN6u8K/wq4WA==</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="128" y="896" width="64" height="128"/>
+        <object id="53" name="exit" x="7552" y="896" width="128" height="192"/>
+        <object id="67" name="bones" x="1408" y="896" width="64" height="128"/>
+        <object id="68" name="bones" x="2624" y="1024" width="64" height="128"/>
+        <object id="90" name="walker" x="5504" y="768" width="64" height="128"/>
+        <object id="91" name="walker" x="6464" y="704" width="64" height="128"/>
+        <object id="93" name="walker" x="2048" y="1024" width="64" height="128"/>
+        <object id="94" name="block2" x="5888" y="512" width="64" height="128"/>
+        <object id="95" name="coin" x="5824" y="640" width="64" height="64"/>
+        <object id="96" name="coin" x="5760" y="640" width="64" height="64"/>
+        <object id="97" name="destroy" x="5760" y="768" width="64" height="64"/>
+        <object id="102" name="coin" x="4352" y="1024" width="64" height="64"/>
+        <object id="103" name="coin" x="4736" y="896" width="64" height="64"/>
+        <object id="104" name="coin" x="4608" y="896" width="64" height="64"/>
+        <object id="106" name="coin" x="4032" y="1024" width="64" height="64"/>
+        <object id="107" name="coin" x="3584" y="1024" width="64" height="64"/>
+        <object id="108" name="coin" x="3776" y="1024" width="64" height="64"/>
+        <object id="109" name="coin" x="6016" y="640" width="64" height="64"/>
+        <object id="110" name="coin" x="6080" y="640" width="64" height="64"/>
+        <object id="111" name="coin" x="6400" y="640" width="64" height="64"/>
+        <object id="112" name="coin" x="6592" y="640" width="64" height="64"/>
+        <object id="113" name="knight" x="7616" y="960" width="64" height="128"/>
+        <object id="114" name="block" type="X" x="3584" y="960" width="64" height="128"/>
+        <object id="115" name="block2" x="1856" y="832" width="64" height="128"/>
+        <object id="116" name="staticshooter" x="1536" y="896" width="64" height="128"/>
+        <object id="120" name="staticshooter" x="5056" y="896" width="64" height="128"/>
+        <object id="121" name="staticshooter" x="5248" y="768" width="64" height="128"/>
+        <object id="122" name="coin" x="2304" y="1024" width="64" height="64"/>
+        <object id="123" name="coin" x="2368" y="1024" width="64" height="64"/>
+        <object id="124" name="coin" x="896" y="896" width="64" height="64"/>
+        <object id="125" name="coin" x="960" y="896" width="64" height="64"/>
+        <object id="126" name="coin" x="1024" y="896" width="64" height="64"/>
+        <object id="127" name="coin" x="4480" y="1024" width="64" height="64"/>
+        <object id="128" name="coin" x="6784" y="832" width="64" height="64"/>
+        <object id="129" name="coin" x="6848" y="896" width="64" height="64"/>
+    </objectgroup>
+    <objectgroup name="interactionObjects">
+        <object id="117" name="destroy" x="5824" y="768" width="64" height="64"/>
+        <object id="118" name="destroy" x="6016" y="768" width="64" height="64"/>
+        <object id="119" name="destroy" x="6080" y="768" width="64" height="64"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1cEJADAIADFXKLj/rA4gBV9SaAI3w0UAAAAA7DiXAADgJzkMAF7kVdAV3uQBaw==</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJzt1U0KgCAQQGGPUZ2gP+3+t0vIhUToYgbM8X0wtIhs4BE5BwAAAADInWlgE20htXd6ds3a8N1/snV6ds2779VkCxmNnUfo6+OEdO2F1s4j9O2Rz0aCvrZJG5T+ES374nEInw+Fe/S1jb62afWd4sxpFqUzIcf3axt9v90iPgbp</data>
+    </layer>
+</map>

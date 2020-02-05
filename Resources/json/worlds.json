@@ -1,0 +1,128 @@
+{
+    "Open Fields": {
+        "level_select_icon": "world_1.png",
+        "audio": "audio/music_world0",
+        "sprites": {
+            "sprite_sheets": [
+                "bg1.plist",
+                "world1.plist"
+            ],
+            "parallax_sprites": [
+                "bg1_layer_1.png",
+                "bg1_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05,
+                0.1,
+                0.1,
+                0.05
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w0l0.tmx",
+                "level_select_icon": "shop_1.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w0l1.tmx",
+                "level_select_icon": "shop_2.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w0l2.tmx",
+                "level_select_icon": "shop_3.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w0l3.tmx",
+                "level_select_icon": "shop_4.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w0l4.tmx",
+                "level_select_icon": "shop_5.png"
+            }
+        }
+    },
+    "Hidden Village": {
+        "level_select_icon": "world_2.png",
+        "audio": "audio/music_world1",
+        "sprites": {
+            "sprite_sheets": [
+                "bg2.plist",
+                "world1.plist"
+            ],
+            "parallax_sprites": [
+                "bg2_layer_1.png",
+                "bg2_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05,
+                0.1,
+                0.1,
+                0.05
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w1l0.tmx",
+                "level_select_icon": "shop_1.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w1l1.tmx",
+                "level_select_icon": "shop_2.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w1l2.tmx",
+                "level_select_icon": "shop_3.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w1l3.tmx",
+                "level_select_icon": "shop_4.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w1l4.tmx",
+                "level_select_icon": "shop_5.png"
+            }
+        }
+    },
+    "Spooky Castle": {
+        "level_select_icon": "world_3.png",
+        "audio": "audio/music_world2",
+        "sprites": {
+            "sprite_sheets": [
+                "bg3.plist",
+                "world1.plist"
+            ],
+            "parallax_sprites": [
+                "bg3_layer_1.png",
+                "bg3_layer_2.png"
+            ],
+            "parallax_ratio": [
+                0.05,
+                0.1,
+                0.1,
+                0.05
+            ]
+        },
+        "levels": {
+            "Level 1": {
+                "tilemap": "tilemap-w2l0.tmx",
+                "level_select_icon": "shop_1.png"
+            },
+            "Level 2": {
+                "tilemap": "tilemap-w2l1.tmx",
+                "level_select_icon": "shop_2.png"
+            },
+            "Level 3": {
+                "tilemap": "tilemap-w2l2.tmx",
+                "level_select_icon": "shop_3.png"
+            },
+            "Level 4": {
+                "tilemap": "tilemap-w2l3.tmx",
+                "level_select_icon": "shop_4.png"
+            },
+            "Level 5": {
+                "tilemap": "tilemap-w2l4.tmx",
+                "level_select_icon": "shop_5.png"
+            }
+        }
+    }
+}

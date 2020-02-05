@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="32" tileheight="32" nextobjectid="130">
+ <tileset firstgid="1" name="world1" tilewidth="32" tileheight="32" spacing="8" margin="4" tilecount="47" columns="47">
+  <image source="world1.png" width="1880" height="40"/>
+ </tileset>
+ <layer name="tileLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmEsOwyAMRH2KdtMPLa2y6f3PFyIFqUI2guKYgmakt8gHx3iCo7AQ0QIAAAAAAECCD7wC7w48Mzm1xKgZL2FZG3+gvw/i9Uk4Qq4yp9IYNeMlacUpkSP4K2lbv9x6aJWlv9wcNHtDL0nz6plTlKW/kL3g79yCv3ML/trotCMdHyX4+x+6BS4JV4W48LddnDe1/jga//93VjmS/3853zm4GFr++oo8WtDoN9aS1uY32z2t+zPc/qSWv1aM2Ccc2dZIqlfJe8atJ8t8f+0T96Tmca5pPzjvcOdy13L3O+MaSf72zMNinty3yqIfxGeN6u8K/wq4WA==
+  </data>
+ </layer>
+ <objectgroup name="gameObjects">
+  <object id="1" name="player" x="64" y="448" width="32" height="64"/>
+  <object id="53" name="exit" x="3776" y="448" width="64" height="96"/>
+  <object id="67" name="bones" x="704" y="448" width="32" height="64"/>
+  <object id="68" name="bones" x="1312" y="512" width="32" height="64"/>
+  <object id="90" name="walker" x="2752" y="384" width="32" height="64"/>
+  <object id="91" name="walker" x="3232" y="352" width="32" height="64"/>
+  <object id="93" name="walker" x="1024" y="512" width="32" height="64"/>
+  <object id="94" name="block2" x="2944" y="256" width="32" height="64"/>
+  <object id="95" name="coin" x="2912" y="320" width="32" height="32"/>
+  <object id="96" name="coin" x="2880" y="320" width="32" height="32"/>
+  <object id="97" name="destroy" x="2880" y="384" width="32" height="32"/>
+  <object id="102" name="coin" x="2176" y="512" width="32" height="32"/>
+  <object id="103" name="coin" x="2368" y="448" width="32" height="32"/>
+  <object id="104" name="coin" x="2304" y="448" width="32" height="32"/>
+  <object id="106" name="coin" x="2016" y="512" width="32" height="32"/>
+  <object id="107" name="coin" x="1792" y="512" width="32" height="32"/>
+  <object id="108" name="coin" x="1888" y="512" width="32" height="32"/>
+  <object id="109" name="coin" x="3008" y="320" width="32" height="32"/>
+  <object id="110" name="coin" x="3040" y="320" width="32" height="32"/>
+  <object id="111" name="coin" x="3200" y="320" width="32" height="32"/>
+  <object id="112" name="coin" x="3296" y="320" width="32" height="32"/>
+  <object id="113" name="knight" x="3808" y="480" width="32" height="64"/>
+  <object id="114" name="block" type="X" x="1792" y="480" width="32" height="64"/>
+  <object id="115" name="block2" x="928" y="416" width="32" height="64"/>
+  <object id="116" name="staticshooter" x="768" y="448" width="32" height="64"/>
+  <object id="120" name="staticshooter" x="2528" y="448" width="32" height="64"/>
+  <object id="121" name="staticshooter" x="2624" y="384" width="32" height="64"/>
+  <object id="122" name="coin" x="1152" y="512" width="32" height="32"/>
+  <object id="123" name="coin" x="1184" y="512" width="32" height="32"/>
+  <object id="124" name="coin" x="448" y="448" width="32" height="32"/>
+  <object id="125" name="coin" x="480" y="448" width="32" height="32"/>
+  <object id="126" name="coin" x="512" y="448" width="32" height="32"/>
+  <object id="127" name="coin" x="2240" y="512" width="32" height="32"/>
+  <object id="128" name="coin" x="3392" y="416" width="32" height="32"/>
+  <object id="129" name="coin" x="3424" y="448" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="interactionObjects">
+  <object id="117" name="destroy" x="2912" y="384" width="32" height="32"/>
+  <object id="118" name="destroy" x="3008" y="384" width="32" height="32"/>
+  <object id="119" name="destroy" x="3040" y="384" width="32" height="32"/>
+ </objectgroup>
+ <layer name="hazardLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEJADAIADFXKLj/rA4gBV9SaAI3w0UAAAAA7DiXAADgJzkMAF7kVdAV3uQBaw==
+  </data>
+ </layer>
+ <layer name="elementLayer" width="120" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1U0KgCAQQGGPUZ2gP+3+t0vIhUToYgbM8X0wtIhs4BE5BwAAAADInWlgE20htXd6ds3a8N1/snV6ds2779VkCxmNnUfo6+OEdO2F1s4j9O2Rz0aCvrZJG5T+ES374nEInw+Fe/S1jb62afWd4sxpFqUzIcf3axt9v90iPgbp
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="64" tileheight="64" nextobjectid="68">
+    <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="47" columns="47">
+        <image source="world1.png" width="3760" height="80"/>
+    </tileset>
+    <layer name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztlsEKgCAQBc3Km3Sr///TvEQg4sVddZ9vYG4l5mBscASZMHoDRBX2xYZ9sWFfbNgXG/adgy15ZnqBdRH63pkWickrU6INQl/LfPd2d+wrwVNxxDOle8u+OCD1Lc0QPZSYU7RA6lv7Fk1n/kdp9z1cv3tUmiHYV3ffI86bfX/Yd+2+LTOLr6yNpOW+LTNLaHjXkuyLLftiu3LfF3znJTI=</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="448" y="704" width="64" height="128"/>
+        <object id="53" name="exit" x="7552" y="768" width="128" height="192"/>
+        <object id="67" name="walker" x="4608" y="448" width="64" height="128"/>
+    </objectgroup>
+    <objectgroup name="interactionObjects">
+        <object id="60" name="destroy" x="3328" y="448" width="64" height="64"/>
+        <object id="64" name="destroy" x="3136" y="448" width="64" height="64"/>
+        <object id="65" name="destroy" x="3200" y="448" width="64" height="64"/>
+        <object id="66" name="destroy" x="3264" y="448" width="64" height="64"/>
+    </objectgroup>
+    <objectgroup id="3" name="infoObjects">
+        <object id="1" name="tutorial1" x="192" y="704" width="64" height="64"/>
+        <object id="54" name="tutorial3" x="2688" y="512" width="64" height="64"/>
+        <object id="61" name="tutorial5" x="4480" y="256" width="64" height="64"/>
+        <object id="62" name="tutorial2" x="1344" y="768" width="64" height="64"/>
+        <object id="63" name="tutorial4" x="5184" y="320" width="64" height="64"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzkERAAAIA6A1sH9bS+z0AwlIAAAAAAAAAACAK/MdoGoBQLAAEA==</data>
+    </layer>
+    <layer name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztzkERAAAIA6A1sH9bS+z0AwlIAAAAAAAAAACAS/MdoGYBQHQAEA==</data>
+    </layer>
+</map>

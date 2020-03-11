@@ -1,0 +1,122 @@
+{
+    "sharing": {
+        "default": {
+            "facebook": {
+                "title": "sharing_facebook",
+                "icon": "ctrl_facebook.png",
+                "url": "https://www.facebook.com/FunkyZooInk",
+                "reward": 500
+            },
+            "twitter": {
+                "title": "sharing_twitter",
+                "icon": "ctrl_twit.png",
+                "url": "http://twitter.com/funkyzooink",
+                "reward": 500
+            }
+        }
+    },
+    "ressources": {
+        "fonts": {
+            "titlefont": "fonts/kenpixel_blocks.ttf",
+            "buttonfont": "fonts/kenpixel.ttf",
+            "hudfont": "fonts/kenpixel.ttf",
+            "font1": "fonts/kenpixel.ttf",
+            "subtitlefont": "fonts/kenpixel.ttf"
+        },
+        "audio": {
+            "explode": "audio/fx_explode",
+            "shoot": "audio/fx_shoot",
+            "jump": "audio/fx_jump",
+            "gameover": "audio/fx_gameover",
+            "start": "audio/fx_start",
+            "end": "audio/fx_end",
+            "shake": "audio/fx_shake",
+            "coin": "audio/fx_coin",
+            "heart": "audio/fx_heart",
+            "powerup": "audio/fx_powerup",
+            "hit": "audio/fx_hit",
+            "flyer": "audio/fx_flyer"
+        },
+        "sprites": {
+            "play_button": "ctrl_play1.png",
+            "pause_button": "ctrl_pause1.png",
+            "settings_button": "ctrl_settings.png",
+            "music_on_button": "ctrl_musicon.png",
+            "music_off_button": "ctrl_musicoff.png",
+            "fx_on_button": "ctrl_effectson.png",
+            "fx_off_button": "ctrl_effectsoff.png",
+            "arrow_up": "ctrl_arrowUp.png",
+            "arrow_shoot": "ctrl_shoot.png",
+            "hud_money": "ig_coin.png",
+            "hud_enemy": "walker/walk-1.png",
+            "hud_power": "ig_heart.png",
+            "cloud": "ig_cloud1.png",
+            "star": "star.png",
+            "hit": "ig_hit.png",
+            "lock": "shop_lock.png",
+            "noise1": "bg_noise.png",
+            "noise2": "bg_noise2.png",
+            "missile": "ig_missile.png",
+            "missile2": "ig_missile2.png"
+        }
+    },
+    "sprite_resolution": {
+        "SD": {
+            "width": 400,
+            "height": 240
+        },
+        "HD": {
+            "width": 800,
+            "height": 480
+        },
+        "HDR": {
+            "width": 1600,
+            "height": 960
+        }
+    },
+    "ui": {
+        "mainscene": {
+            "tilemap": "tilemap-w0l2.tmx",
+            "backgrounds": [
+                "bg1_layer_1.png",
+                "bg1_layer_2.png"
+            ],
+            "title": "start_title",
+            "font_color": "000000FF"
+        },
+        "animations": {
+            "level_info_popup": 1,
+            "mainscene": 0
+        },
+        "color": {
+            "player_crash_rectangle": "445533FF",
+            "background": "C3D0A1FF",
+            "text": "000000FF"
+        }
+    },
+    "controls": {
+        "touch1": {
+            "type": "left",
+            "sprite": "ctrl_arrowLeft.png"
+        },
+        "touch2": {
+            "type": "right",
+            "sprite": "ctrl_arrowRight.png"
+        },
+        "touch3": {
+            "type": "custom1"
+        },
+        "touch4": {
+            "type": "custom2",
+            "sprite": "ctrl_arrowUp.png"
+        }
+    },
+    "localization": [
+        "en"
+    ],
+    "gameplay": {
+        "player_life": 3,
+        "revive_start_cash": 20,
+        "revive_multiply": 2
+    }
+}

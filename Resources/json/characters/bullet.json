@@ -1,0 +1,21 @@
+{
+    "bullet": {
+        "x_speed": 100,
+        "life_time": 100,
+        "rotation_animation": true,
+        "animations": {
+            "idle_left": [
+                "ig_missile.png"
+            ],
+            "idle_right": [
+                "ig_missile.png"
+            ],
+            "walk_left": [
+                "ig_missile.png"
+            ],
+            "walk_right": [
+                "ig_missile.png"
+            ]
+        }
+    }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="120" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="161">
+    <tileset firstgid="1" name="world1" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="47" columns="47">
+        <image source="world1.png" width="940" height="20"/>
+    </tileset>
+    <layer id="1" name="tileLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztmFELgzAMhDu3CRO2ven//6d2sMEosSba6kXvg3uy1JijaUwIhJCz0H9FCDqXqLtBzT5hukWb309ee0H/SM/n9Ix6G9QW/XpMhkRzec+hzW+tvD6iXgZ1leLwhvZcXgPPjUesdY/++sJa91gX8Unv5S3flb5T6gVy6wkh5AhM9cae//1R6jZCbqd646P2uCVmXNIe0roaubXGezZ/S8y4pD2069bm1hov/c3rFnRzHPqLQelZDf3FAsVfax/wu1vpbx4Uf5fE0S6Ig/768ncElp8bVg==</data>
+    </layer>
+    <objectgroup id="2" name="gameObjects">
+        <object id="1" name="player" x="80" y="192" width="16" height="32"/>
+        <object id="53" name="exit" x="1888" y="224" width="32" height="48"/>
+        <object id="67" name="walker" x="224" y="48" width="16" height="32"/>
+        <object id="90" name="walker" x="1296" y="176" width="16" height="32"/>
+        <object id="91" name="walker" x="1664" y="160" width="16" height="32"/>
+        <object id="93" name="knight" x="624" y="32" width="16" height="32"/>
+        <object id="94" name="staticshooter" x="1424" y="176" width="16" height="32"/>
+        <object id="95" name="coin" x="1424" y="160" width="16" height="16"/>
+        <object id="96" name="coin" x="1392" y="160" width="16" height="16"/>
+        <object id="97" name="coin" x="1360" y="160" width="16" height="16"/>
+        <object id="98" name="coin" x="1072" y="144" width="16" height="16"/>
+        <object id="99" name="coin" x="1024" y="128" width="16" height="16"/>
+        <object id="100" name="coin" x="1040" y="144" width="16" height="16"/>
+        <object id="109" name="coin" x="1536" y="160" width="16" height="16"/>
+        <object id="110" name="coin" x="1568" y="144" width="16" height="16"/>
+        <object id="113" name="walker" x="1792" y="240" width="16" height="32"/>
+        <object id="114" name="block2" x="864" y="112" width="16" height="32"/>
+        <object id="115" name="block2" x="1120" y="128" width="16" height="32"/>
+        <object id="116" name="walker" x="720" y="32" width="16" height="32"/>
+        <object id="117" name="walker" x="928" y="32" width="16" height="32"/>
+        <object id="118" name="coin" x="720" y="112" width="16" height="16"/>
+        <object id="119" name="coin" x="752" y="112" width="16" height="16"/>
+        <object id="120" name="coin" x="784" y="112" width="16" height="16"/>
+        <object id="149" name="coin" x="1104" y="16" width="16" height="16"/>
+        <object id="150" name="coin" x="1136" y="16" width="16" height="16"/>
+        <object id="151" name="coin" x="1248" y="96" width="16" height="16"/>
+        <object id="152" name="coin" x="1280" y="128" width="16" height="16"/>
+        <object id="153" name="coin" x="192" y="0" width="16" height="16"/>
+        <object id="154" name="coin" x="208" y="0" width="16" height="16"/>
+        <object id="155" name="coin" x="1728" y="240" width="16" height="16"/>
+        <object id="156" name="coin" x="1744" y="240" width="16" height="16"/>
+        <object id="157" name="coin" x="1760" y="240" width="16" height="16"/>
+    </objectgroup>
+    <objectgroup id="3" name="interactionObjects">
+        <object id="121" name="destroy" x="256" y="80" width="16" height="16"/>
+        <object id="122" name="destroy" x="272" y="80" width="16" height="16"/>
+        <object id="123" name="destroy" x="288" y="80" width="16" height="16"/>
+        <object id="124" name="destroy" x="304" y="80" width="16" height="16"/>
+        <object id="125" name="destroy" x="320" y="80" width="16" height="16"/>
+        <object id="126" name="destroy" x="192" y="32" width="16" height="16"/>
+        <object id="127" name="destroy" x="208" y="32" width="16" height="16"/>
+        <object id="128" name="destroy" x="672" y="64" width="16" height="16"/>
+        <object id="129" name="destroy" x="688" y="64" width="16" height="16"/>
+        <object id="130" name="destroy" x="704" y="64" width="16" height="16"/>
+        <object id="131" name="destroy" x="720" y="64" width="16" height="16"/>
+        <object id="132" name="destroy" x="736" y="64" width="16" height="16"/>
+        <object id="136" name="destroy" x="800" y="64" width="16" height="16"/>
+        <object id="137" name="destroy" x="816" y="64" width="16" height="16"/>
+        <object id="138" name="destroy" x="832" y="64" width="16" height="16"/>
+        <object id="139" name="destroy" x="848" y="64" width="16" height="16"/>
+        <object id="140" name="destroy" x="864" y="64" width="16" height="16"/>
+        <object id="141" name="destroy" x="880" y="64" width="16" height="16"/>
+        <object id="142" name="destroy" x="896" y="64" width="16" height="16"/>
+        <object id="143" name="destroy" x="912" y="64" width="16" height="16"/>
+        <object id="144" name="destroy" x="928" y="64" width="16" height="16"/>
+        <object id="145" name="destroy" x="944" y="64" width="16" height="16"/>
+        <object id="146" name="destroy" x="960" y="64" width="16" height="16"/>
+        <object id="147" name="destroy" x="976" y="64" width="16" height="16"/>
+        <object id="148" name="destroy" x="992" y="64" width="16" height="16"/>
+        <object id="158" name="destroy" x="880" y="144" width="16" height="16"/>
+        <object id="159" name="destroy" x="864" y="144" width="16" height="16"/>
+        <object id="160" name="destroy" x="848" y="144" width="16" height="16"/>
+    </objectgroup>
+    <layer id="4" name="hazardLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztw7ENAAAIA6Ae4f+3und3MZCQAAAAAAAAAJemAgDwxwI9jQBR</data>
+    </layer>
+    <layer id="5" name="elementLayer" width="120" height="20">
+        <data encoding="base64" compression="zlib">eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAB4DCWAAAE=</data>
+    </layer>
+</map>

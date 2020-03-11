@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="20" tilewidth="64" tileheight="64" nextobjectid="103">
+    <tileset firstgid="1" name="world1" tilewidth="64" tileheight="64" spacing="16" margin="8" tilecount="47" columns="47">
+        <image source="world1.png" width="3760" height="80"/>
+    </tileset>
+    <layer name="tileLayer" width="150" height="20">
+        <data encoding="base64" compression="zlib">eJztmNEOwiAMRdGpiSbTR///T+XFmJBCS6GuwD3JfVpD6HrpOkIAAAAAAAAAgLk5RV0JnYWx37h3ohTuOZiLPepF6CaMpeLAOuT60haO9ZVVH8vl2yKqh69Ori/lNHq/qs1X+068IjlX0lmnFD+br7g+t5KvKC/kvkOaGmvjR/QVxyy+kvQdiYcoXSrXmsVXLbOXha+oOljPZxZ59DxXI/qqBU/1kPqyx/wCX9niqR7/rJv3/VFr3KOeiR5EnAc81QO+Kq9RCzcbcTNpy32Rp3rAV319xcHtqWUPnuoBX/2Uzpil3qG92+b+j+ErX3lY7K/0L6O9P9HkIcVTPeArXzrSVx8PXD99</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="512" y="640" width="64" height="128"/>
+        <object id="53" name="exit" x="9472" y="256" width="128" height="192"/>
+        <object id="67" name="walker" x="1472" y="704" width="64" height="128"/>
+        <object id="68" name="jumper" x="3584" y="448" width="64" height="128"/>
+        <object id="69" name="walker" x="2560" y="576" width="64" height="128"/>
+        <object id="71" name="walker" x="8960" y="320" width="64" height="128"/>
+        <object id="72" name="walker" x="6336" y="192" width="64" height="128"/>
+        <object id="73" name="block2" x="3840" y="320" width="64" height="128"/>
+        <object id="74" name="coin" x="1856" y="640" width="64" height="64"/>
+        <object id="75" name="coin" x="1984" y="512" width="64" height="64"/>
+        <object id="76" name="coin" x="2112" y="448" width="64" height="64"/>
+        <object id="77" name="coin" x="2240" y="512" width="64" height="64"/>
+        <object id="78" name="coin" x="3264" y="384" width="64" height="64"/>
+        <object id="79" name="coin" x="3392" y="384" width="64" height="64"/>
+        <object id="80" name="coin" x="3520" y="384" width="64" height="64"/>
+        <object id="81" name="coin" x="3648" y="384" width="64" height="64"/>
+        <object id="82" name="coin" x="4224" y="448" width="64" height="64"/>
+        <object id="83" name="coin" x="4160" y="448" width="64" height="64"/>
+        <object id="84" name="coin" x="4544" y="384" width="64" height="64"/>
+        <object id="85" name="coin" x="4608" y="320" width="64" height="64"/>
+        <object id="86" name="coin" x="5888" y="960" width="64" height="64"/>
+        <object id="87" name="coin" x="5952" y="960" width="64" height="64"/>
+        <object id="88" name="coin" x="6016" y="960" width="64" height="64"/>
+        <object id="89" name="coin" x="6080" y="960" width="64" height="64"/>
+        <object id="90" name="staticshooter" x="2624" y="576" width="64" height="128"/>
+        <object id="91" name="staticshooter" x="6912" y="192" width="64" height="128"/>
+        <object id="95" name="walker" x="5376" y="192" width="64" height="128"/>
+        <object id="96" name="block2" x="8384" y="384" width="64" height="128"/>
+        <object id="97" name="block" type="X" x="7616" y="512" width="64" height="128"/>
+        <object id="98" name="block2" x="320" y="256" width="64" height="128"/>
+        <object id="99" name="coin" x="64" y="384" width="64" height="64"/>
+        <object id="100" name="coin" x="192" y="384" width="64" height="64"/>
+        <object id="101" name="coin" x="8128" y="384" width="64" height="64"/>
+        <object id="102" name="coin" x="8192" y="384" width="64" height="64"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="150" height="20">
+        <data encoding="base64" compression="zlib">eJzt10EKgDAMRNGeQb3/Wd1KQVE0RP78B4EuO81sOoYkSZIk5VoP56XtFqKxV7qS1om0vF3S3jktb5e0d07L+8Y2jc5RekXJQUHZByUHBWUflBwUlH1QclC4D1WwV//25P85/1fvTBV7pQr2ShXslSp80asd/F8DQw==</data>
+    </layer>
+    <layer name="elementLayer" width="150" height="20">
+        <data encoding="base64" compression="zlib">eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAOBvLuAAAQ==</data>
+    </layer>
+</map>

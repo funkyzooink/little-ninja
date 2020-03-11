@@ -1,0 +1,159 @@
+{
+    "walker": {
+        "x_speed": 5,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "walker/walk-1.png",
+                "walker/walk-2.png"
+            ],
+            "idle_right": [
+                "walker/walk-1.png",
+                "walker/walk-2.png"
+            ],
+            "walk_left": [
+                "walker/walk-1.png",
+                "walker/walk-2.png",
+                "walker/walk-3.png",
+                "walker/walk-2.png"
+            ],
+            "walk_right": [
+                "walker/walk-1.png",
+                "walker/walk-2.png",
+                "walker/walk-3.png",
+                "walker/walk-2.png"
+            ]
+        }
+    },
+    "bones": {
+        "x_speed": 4,
+        "life": 2,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "bones/walk-1.png",
+                "bones/walk-2.png"
+            ],
+            "idle_right": [
+                "bones/walk-1.png",
+                "bones/walk-2.png"
+            ],
+            "hit_left": [
+                "bones/hit-1.png",
+                "bones/hit-2.png"
+            ],
+            "hit_right": [
+                "bones/hit-1.png",
+                "bones/hit-2.png"
+            ],
+            "walk_left": [
+                "bones/walk-1.png",
+                "bones/walk-2.png",
+                "bones/walk-3.png",
+                "bones/walk-2.png"
+            ],
+            "walk_right": [
+                "bones/walk-1.png",
+                "bones/walk-2.png",
+                "bones/walk-3.png",
+                "bones/walk-2.png"
+            ]
+        }
+    },
+    "knight": {
+        "x_speed": 4,
+        "y_speed": 1.2,
+        "can_attack": true,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "knight/walk-1.png",
+                "knight/walk-2.png"
+            ],
+            "idle_right": [
+                "knight/walk-1.png",
+                "knight/walk-2.png"
+            ],
+            "jump_left_down": [
+                "knight/jump-down.png"
+            ],
+            "jump_left_up": [
+                "knight/jump-up.png"
+            ],
+            "jump_right_down": [
+                "knight/jump-down.png"
+            ],
+            "jump_right_up": [
+                "knight/jump-up.png"
+            ],
+            "walk_left": [
+                "knight/walk-1.png",
+                "knight/walk-2.png",
+                "knight/walk-3.png",
+                "knight/walk-4.png"
+            ],
+            "walk_right": [
+                "knight/walk-1.png",
+                "knight/walk-2.png",
+                "knight/walk-3.png",
+                "knight/walk-4.png"
+            ]
+        }
+    },
+    "jumper": {
+        "x_speed": 5,
+        "y_speed": 3.5,
+        "can_jump": true,
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png"
+            ],
+            "idle_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png"
+            ],
+            "jump_left_down": [
+                "jumper/jump.png"
+            ],
+            "jump_left_up": [
+                "jumper/jump.png"
+            ],
+            "jump_right_down": [
+                "jumper/jump.png"
+            ],
+            "jump_right_up": [
+                "jumper/jump.png"
+            ],
+            "walk_left": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-2.png"
+            ],
+            "walk_right": [
+                "jumper/walk-1.png",
+                "jumper/walk-2.png",
+                "jumper/walk-3.png",
+                "jumper/walk-2.png"
+            ]
+        }
+    },
+    "staticshooter": {
+        "bullet_life_time": 100,
+        "can_move": false,
+        "bullet_type": [
+            "bullet"
+        ],
+        "flip_animation_x": true,
+        "animations": {
+            "idle_left": [
+                "staticshooter/idle1.png"
+            ],
+            "idle_right": [
+                "staticshooter/idle1.png"
+            ]
+        }
+    }
+}

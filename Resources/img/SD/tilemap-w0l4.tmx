@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="20" tilewidth="16" tileheight="16" nextobjectid="103">
+    <tileset firstgid="1" name="world1" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="47" columns="47">
+        <image source="world1.png" width="940" height="20"/>
+    </tileset>
+    <layer name="tileLayer" width="150" height="20">
+        <data encoding="base64" compression="zlib">eJztmNEOwiAMRdGpiSbTR///T+XFmJBCS6GuwD3JfVpD6HrpOkIAAAAAAAAAgLk5RV0JnYWx37h3ohTuOZiLPepF6CaMpeLAOuT60haO9ZVVH8vl2yKqh69Ori/lNHq/qs1X+068IjlX0lmnFD+br7g+t5KvKC/kvkOaGmvjR/QVxyy+kvQdiYcoXSrXmsVXLbOXha+oOljPZxZ59DxXI/qqBU/1kPqyx/wCX9niqR7/rJv3/VFr3KOeiR5EnAc81QO+Kq9RCzcbcTNpy32Rp3rAV319xcHtqWUPnuoBX/2Uzpil3qG92+b+j+ErX3lY7K/0L6O9P9HkIcVTPeArXzrSVx8PXD99</data>
+    </layer>
+    <objectgroup name="gameObjects">
+        <object id="1" name="player" x="128" y="160" width="16" height="32"/>
+        <object id="53" name="exit" x="2368" y="64" width="32" height="48"/>
+        <object id="67" name="walker" x="368" y="176" width="16" height="32"/>
+        <object id="68" name="jumper" x="896" y="112" width="16" height="32"/>
+        <object id="69" name="walker" x="640" y="144" width="16" height="32"/>
+        <object id="71" name="walker" x="2240" y="80" width="16" height="32"/>
+        <object id="72" name="walker" x="1584" y="48" width="16" height="32"/>
+        <object id="73" name="block2" x="960" y="80" width="16" height="32"/>
+        <object id="74" name="coin" x="464" y="160" width="16" height="16"/>
+        <object id="75" name="coin" x="496" y="128" width="16" height="16"/>
+        <object id="76" name="coin" x="528" y="112" width="16" height="16"/>
+        <object id="77" name="coin" x="560" y="128" width="16" height="16"/>
+        <object id="78" name="coin" x="816" y="96" width="16" height="16"/>
+        <object id="79" name="coin" x="848" y="96" width="16" height="16"/>
+        <object id="80" name="coin" x="880" y="96" width="16" height="16"/>
+        <object id="81" name="coin" x="912" y="96" width="16" height="16"/>
+        <object id="82" name="coin" x="1056" y="112" width="16" height="16"/>
+        <object id="83" name="coin" x="1040" y="112" width="16" height="16"/>
+        <object id="84" name="coin" x="1136" y="96" width="16" height="16"/>
+        <object id="85" name="coin" x="1152" y="80" width="16" height="16"/>
+        <object id="86" name="coin" x="1472" y="240" width="16" height="16"/>
+        <object id="87" name="coin" x="1488" y="240" width="16" height="16"/>
+        <object id="88" name="coin" x="1504" y="240" width="16" height="16"/>
+        <object id="89" name="coin" x="1520" y="240" width="16" height="16"/>
+        <object id="90" name="staticshooter" x="656" y="144" width="16" height="32"/>
+        <object id="91" name="staticshooter" x="1728" y="48" width="16" height="32"/>
+        <object id="95" name="walker" x="1344" y="48" width="16" height="32"/>
+        <object id="96" name="block2" x="2096" y="96" width="16" height="32"/>
+        <object id="97" name="block" type="X" x="1904" y="128" width="16" height="32"/>
+        <object id="98" name="block2" x="80" y="64" width="16" height="32"/>
+        <object id="99" name="coin" x="16" y="96" width="16" height="16"/>
+        <object id="100" name="coin" x="48" y="96" width="16" height="16"/>
+        <object id="101" name="coin" x="2032" y="96" width="16" height="16"/>
+        <object id="102" name="coin" x="2048" y="96" width="16" height="16"/>
+    </objectgroup>
+    <layer name="hazardLayer" width="150" height="20">
+        <data encoding="base64" compression="zlib">eJzt10EKgDAMRNGeQb3/Wd1KQVE0RP78B4EuO81sOoYkSZIk5VoP56XtFqKxV7qS1om0vF3S3jktb5e0d07L+8Y2jc5RekXJQUHZByUHBWUflBwUlH1QclC4D1WwV//25P85/1fvTBV7pQr2ShXslSp80asd/F8DQw==</data>
+    </layer>
+    <layer name="elementLayer" width="150" height="20">
+        <data encoding="base64" compression="zlib">eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAOBvLuAAAQ==</data>
+    </layer>
+</map>

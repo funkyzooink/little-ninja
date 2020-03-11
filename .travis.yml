@@ -1,6 +1,7 @@
 os: osx
-language: ruby
+language: python
 script:
+ - printenv
   # - ./travis.sh
 env:
   global:

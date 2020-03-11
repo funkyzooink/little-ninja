@@ -32,18 +32,38 @@ run_wbtmx() {
 
 }
 
+download_spritesheetpacker() {
+  cd ../..
+  wget https://github.com/amakaseev/sprite-sheet-packer/releases/download/1.0.9/SpriteSheetPacker-Installer.dmg
+  cd ${TRAVIS_REPO_SLUG}
+}
+
+setup_spritesheetpacker() {
+  cd ../..
+  sudo hdiutil attach SpriteSheetPacker-Installer.dmg
+  sudo cp -R /Volumes/SpriteSheet\ Packer/SpriteSheetPacker.app /Applications
+  cd ${TRAVIS_REPO_SLUG}
+}
+
+run_spritesheetpacker() {
+  cd art
+  /Applications/SpriteSheetPacker.app/Contents/MacOS/SpriteSheetPacker characters.ssp
+  /Applications/SpriteSheetPacker.app/Contents/MacOS/SpriteSheetPacker menu.ssp
+  cd ..
+}
+
 setup_git() {
   git config --global user.email "funkyzooink@gmail.com"
   git config --global user.name "Travis CI"
 }
 
 commit_files() {
-  git checkout -b tmx_updates
+  git checkout -b resources_update
   git add . 
-  git commit -m "[skip ci] Travis tmx update: $TRAVIS_BUILD_NUMBER"
+  git commit -m "[skip ci] Travis tmx and spritesheet update: $TRAVIS_BUILD_NUMBER"
   git checkout master
-  git merge --squash tmx_updates
-  git merge tmx_updates
+  git merge --squash resources_update
+  git merge resources_update
 }
 
 upload_files() {
@@ -54,6 +74,9 @@ upload_files() {
 
 download_wbtmx
 run_wbtmx
+download_spritesheetpacker
+setup_spritesheetpacker
+run_spritesheetpacker
 setup_git
 commit_files
 upload_files
